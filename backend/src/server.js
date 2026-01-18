@@ -26,6 +26,6 @@ app.use("/api/users", userRoute);
 
 connectDB().then(() => {
   app.listen(PORT, () => {
-    console.log(`server bắt đầu trên cổng ${PORT}`);
+    console.log(`http://localhost:${PORT}`);
   });
 });
